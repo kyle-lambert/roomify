@@ -1,0 +1,19 @@
+@import "../../../styles/partials/variables";
+
+.Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    height: 24px;
+    width: auto;
+    fill: $black;
+  }
+
+  &--secondary {
+    svg {
+      fill: $grey;
+    }
+  }
+}

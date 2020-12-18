@@ -1,0 +1,26 @@
+@import "../../../styles/partials/variables";
+
+.ModalFooter {
+  min-height: 65px;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-grey;
+
+  &__copy {
+    font-size: 15px;
+    color: $grey;
+    text-align: center;
+  }
+
+  &__button {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: $grey;
+    text-decoration: underline;
+  }
+}
