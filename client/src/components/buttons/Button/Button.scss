@@ -8,6 +8,7 @@
   color: $white;
   background-color: $red;
   border-radius: 8px;
+  transition: background-color 150ms ease;
 
   &:hover {
     background-color: $red-dark;

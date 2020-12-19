@@ -2,17 +2,16 @@
 
 .ModalHeader {
   position: relative;
-  padding: 0 20px;
-  min-height: 65px;
+  padding: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $white;
-  border-bottom: 2px solid $border-grey;
+  background-color: $black;
 
   &__heading {
     text-align: center;
+    color: $white;
   }
 
   &__close {

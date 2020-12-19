@@ -9,7 +9,7 @@ function ModalHeader({ heading }) {
     <header className="ModalHeader">
       {heading && <h5 className="ModalHeader__heading">{heading}</h5>}
       <button className="ModalHeader__close">
-        <Icon>
+        <Icon iconSecondary>
           <CloseIcon />
         </Icon>
       </button>
