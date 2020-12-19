@@ -1,15 +1,15 @@
 import React from "react";
-import "./SignUpModal.scss";
 
 import Modal from "../Modal/Modal";
 import ModalHeader from "../ModalHeader/ModalHeader";
+import ModalContent from "../ModalContent/ModalContent";
 import ModalFooter from "../ModalFooter/ModalFooter";
 
 function SignUpModal(props) {
   return (
     <Modal>
       <ModalHeader heading="Sign Up" />
-      <div className="SignUpModal">fsakjdhfkasjdh</div>
+      <ModalContent>hjsdkjf</ModalContent>
       <ModalFooter displayCopy="Already have an account?" buttonLabel="Login" />
     </Modal>
   );

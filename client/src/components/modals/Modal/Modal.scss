@@ -7,8 +7,8 @@
   width: 100%;
   background-color: $white;
   overflow: hidden;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
   @media (min-width: $tablet) {
     top: 50%;
@@ -16,9 +16,7 @@
     bottom: unset;
     transform: translate(-50%, -50%);
     width: 500px;
-    max-height: 90%;
     height: auto;
-    max-height: 90%;
-    border-radius: 12px;
+    border-radius: 10px;
   }
 }

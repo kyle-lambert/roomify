@@ -1,0 +1,35 @@
+@import "../../../styles/partials/variables";
+
+.FormInputGroup {
+  &__label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: $grey;
+  }
+
+  &__input {
+    position: relative;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $black;
+    background-color: $white;
+    border: 1px solid $border-grey;
+    border-radius: 8px;
+
+    &:focus {
+      background-color: $background-grey;
+    }
+
+    &::placeholder {
+      color: $border-grey;
+      font-style: italic;
+      font-weight: inherit;
+      font-size: 16px;
+    }
+  }
+}

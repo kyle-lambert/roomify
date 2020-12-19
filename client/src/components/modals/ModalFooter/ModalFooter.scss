@@ -22,5 +22,9 @@
     font-weight: 700;
     color: $grey;
     text-decoration: underline;
+
+    &:hover {
+      color: $black;
+    }
   }
 }

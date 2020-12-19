@@ -1,0 +1,10 @@
+.LoginForm {
+  &__item {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-top: 30px;
+      margin-bottom: unset;
+    }
+  }
+}
